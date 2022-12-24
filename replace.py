@@ -1,0 +1,6 @@
+text = input("Enter the text : ")
+w = input("Enter a word to replace : ")
+r = input("\nwhat you want to replace by : ")
+n = text.count(w)
+print(str(n) + "  words has replced")
+print("replaced text is :" + text.replace(w,r))
